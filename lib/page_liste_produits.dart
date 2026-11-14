@@ -12,15 +12,21 @@ class ListProduits extends StatelessWidget {
       prix: 1200.0,
     ),
     Produit(
-      nom: "Smartphone",
-      description: "Téléphone nouvelle génération avec triple caméra.",
-      prix: 900.0,
-    ),
-    Produit(
-      nom: "Casque Bluetooth",
-      description: "Casque sans fil avec réduction de bruit.",
+      nom: "Souris sans fil Logitech",
+      description: "Souris sans fil ergonomique pour un usage professionnel.",
       prix: 150.0,
     ),
+    Produit(
+      nom: "Casque son JBL",
+      description: "Casque sans fil avec réduction de bruit.",
+      prix: 375.0,
+    ),
+    Produit(
+      nom: "Chaise de Bureau Arhaus",
+      description: "Chaise de bureau ergonomique de qualité Arhaus de gaming.",
+      prix: 780.0,
+    ),
+    
   ];
   @override
 Widget build(BuildContext context) {
